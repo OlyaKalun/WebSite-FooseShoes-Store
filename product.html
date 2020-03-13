@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <!-- meta info -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+   
+        <!-- customised stylesheet -->
+        <link rel="stylesheet" href="css/application.css">
+    <title>FooseShoes Product</title>
+  </head>
+  <body>
+
+    <div class="container-fluid p-0 ">
+
+        <div class="bg-header d-flex flex-wrap ">
+            <div class="row header-content mx-auto text-muted">
+                    <div class="col  d-flex  px-0 border-right-0">
+                            <a href="index.html"><h6 class="logo d-flex my-0 font-weight-normal "><span class="text-uppercase">fooseshoes</span></h6></a>
+                    </div>
+
+                    <div class="col-auto search  m-auto text-right pr-0 py-2">
+                          
+                            <div class="dropdown d-inline-flex">
+                                <a href="#" class="dropdown-toggle d-flex " id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <div class="d-flex  px-3"><i class="fas fa-search text-muted"></i></div>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-right my-0 py-0" aria-labelledby="dropdownMenuLink">
+                                        <a class="dropdown-item py-2" href="#">Men Shoes</a>
+                                        <a class="dropdown-item py-2" href="#">Kids</a>
+                                    <div id="search-drop">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-auto col-md-3 login m-auto p-2 text-center d-flex">
+                                <div class="mx-auto px-0"><span class="text-uppercase " data-toggle="modal" data-target="#loginModal">login</span> or <span class="text-uppercase" data-toggle="modal" data-target="#registerModal">register</span></div> 
+                            </div>
+            </div> 
+        </div>
+       
+        <div class="menu-section">
+            <div class="row menu-content text-center font-weight-bold mx-auto">
+                <div class="col px-0"><a href="index.html" class="d-flex menu-item "> Home</a></div>
+                <div class="col px-0"><a href="#" class="d-flex  menu-item ">Products</a></div>
+                <div class="col px-0"><a href="#" class="d-flex  menu-item "> About</a></div>
+                <div class="col px-0"><a href="#" class="d-flex  menu-item "> Pages</a></div>
+                <div class="col px-0"><a href="#" class="d-flex  menu-item "> Blog</a></div>
+                <div class="col px-0"><a href="#" class="d-flex  menu-item "> Contact</a></div>
+
+                
+                <div class="col px-0 invisible">
+                    <div class="d-flex menu-item m-auto py-3"><i class="fas fa-bars"></i></div>
+                </div>
+                <div class="col px-0 invisible">
+                    <div class="d-flex menu-item m-auto py-3"><i class="fas fa-search"></i></div> 
+                </div>
+
+                    <div class="col px-0">
+                        <div class="d-flex  menu-item m-auto py-3">
+                            <i class="far fa-star mr-1  text-dark"></i>
+                            <span class="badge badge-secondary">30</span>
+                        </div>
+                    </div>
+                    <div class="col px-0">
+                        <div class="d-flex  menu-item m-auto py-3">
+                            <i class="fas fa-cart-arrow-down mr-1  text-dark"></i>
+                            <span class="badge badge-secondary">0</span>
+                        </div>
+                    </div>
+                
+            </div>
+        </div>
+
+        <div class="slider-whole">
+                <div id="carouselExampleIndicators" class="carousel slide col px-0" data-ride="carousel">
+                        <div class="carousel-inner">
+                            
+                        <div class=" carousel-item active ml-auto">
+                                   
+                                <div class="slider-section img-bg">
+                                    <div class="row slider-content justify-content-end mx-auto">
+                                        
+                                        <div class="col col-md-6 py-5 pr-0 ">
+                                            <div class="price-big d-inline-flex mb-2 ">
+                                                <div class="mx-auto">$145.99</div>
+                                            </div>
+                                            <h5>Pink Shoes <br> 2013 Collection</h5>
+                                            <p>Nunc non fermentum nunc. Sed ut ante eget leo tempor consequat sit amet eu orci.
+                                                Donec dignissim dolor eget..
+                                            </p>
+                                            <div class="mt-4 ">
+                                                    <div class="d-inline-flex bg-white py-2 px-2"><i class="far d-flex menu-item fa-eye"></i></div>
+                                                    <div class="d-inline-flex bg-white py-2 px-2"><i class="far d-flex menu-item fa-star"></i></div>
+                                                    <div class="d-inline-flex bg-white py-2 px-2"><i class="fas d-flex menu-item fa-external-link-alt"></i></div>
+                                                    <div class="d-inline-flex bg-white py-2 px-2"><i class="fas d-flex menu-item fa-cart-arrow-down"></i></div>
+                                            </div>    
+                                        </div>
+                                </div>
+                            </div> 
+                        </div>    
+                    </div>
+                </div>
+        </div>
+        <div class="shop-section">
+            <div class="row shop-content   mx-auto">
+                <div class="col shop-by ">
+                    <h6 class="m-auto  py-2 ">Shop by</h6>
+                </div>
+                <div class="row">
+                <div class="col">
+                    <div class="dropdown  d-inline-flex  py-3">
+                        <button class="btn dropdown-text dropdown-toggle " type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Brands<i class="fas fa-chevron-circle-down pl-3"></i>
+                           </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                          <button class="dropdown-item py-2" type="button">Even&Odd</button>
+                          <button class="dropdown-item py-2" type="button">Buffalo Decollete</button>
+                          <button class="dropdown-item py-2" type="button">Prada</button>
+                        </div>
+                      </div>
+                </div>
+                <div class="col">
+                    <div class="dropdown  d-inline-flex  py-3">
+                        <button class="btn dropdown-text dropdown-toggle " type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Categories<i class="fas fa-chevron-circle-down pl-3"></i>
+                           </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                          <button class="dropdown-item py-2" type="button">Men</button>
+                          <button class="dropdown-item py-2" type="button">Women</button>
+                          <button class="dropdown-item py-2" type="button">Kids</button>
+                        </div>
+                      </div>
+                </div>
+                <div class="col">
+                    <div class="dropdown  d-inline-flex  py-3">
+                        <button class="btn dropdown-text dropdown-toggle " type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                         Price<i class="fas fa-chevron-circle-down pl-3"></i>
+                           </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                          <button class="dropdown-item py-2" type="button">From 100 to 300</button>
+                          <button class="dropdown-item py-2" type="button">From 300 to 500</button>
+                          <button class="dropdown-item py-2" type="button">From 500 </button>
+                        </div>
+                      </div> 
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="row arrivals-content mx-auto py-4  ">
+                <div class="col px-0">
+                    <div class="row pb-3 ">
+                        <div class="col-auto">
+                            <h5 class="font-weight-normal">
+                                All Products
+                            </h5>
+                        </div>
+                        <div class="col-auto d-flex">
+                            <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                <li class="breadcrumb-item active"><a href="#">All Products</a></li>
+                            </ol>
+                            </nav>
+                        </div>
+                        <div class="col-auto d-flex ml-auto text-right">
+                            <span class="m-auto pr-3">
+                                View As
+                            </span>
+                            <div class="d-inline-flex px-2 mr-2 show-all" id="gridView">
+                                <span class="m-auto">
+                                    <i class="fas fa-th-large"></i>
+                                </span>
+                            </div>
+                            <div class="d-inline-flex px-2 mr-4 show-all" id="listView">
+                                <span class="m-auto">
+                                    <i class="fas fa-list"></i>
+                                </span>
+                            </div>
+
+                            <div class="d-inline-flex py-1 px-3  show-all">
+                                <span class="m-auto">
+                                    Sort Alphabeticaly
+                                    <i class="fas fa-chevron-circle-down pl-1"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row arrivals-items">
+                        <div class="col-4 mb-3 px-2">
+                            <div class="card">
+                                <img class="card-img-top"  src="img/shoes1.png" alt="Shoes1">
+                                <div class="card-body p-0">
+                                        <div class="placeit"></div>
+                                        <div class="price-big d-inline-flex">
+                                            <div class="mx-auto">$145.99</div>
+                                        </div>
+                                    <p class="card-text d-inline-block">Even&Odd</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4 mb-3 px-2">
+                            <div class="card">
+                                <img class="card-img-top" src="img/shoes2.png" alt="Shoes2">
+                                        <div class="d-inline-flex badge-sale black-sale">
+                                            <div class="mx-auto text-center">ON SALE!</div>
+                                        </div>
+                                        <div class="card-body p-0">
+                                        <div class="placeit"></div>
+                                        <div class="price-big d-inline-flex">
+                                            <div class="mx-auto">$145.99</div>
+                                        </div>
+                                    <p class="card-text d-inline-block">Even&Odd</p>
+                                </div>
+                                </div>
+                                
+                            </div>
+                            <div class="col-4 mb-3 px-2">
+                                <div class="card">
+                                    <img class="card-img-top"   src="img/shoes3.png" alt="Shoes3">
+                                    <div class="card-body p-0">
+                                            <div class="placeit"></div>
+                                            <div class="price-big d-inline-flex">
+                                                <div class="mx-auto">$145.99</div>
+                                            </div>
+                                        <p class="card-text d-inline-block ">Buffalo Decollete</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4 mb-3 px-2">
+                                <div class="card">
+                                    <img class="card-img-top"  src="img/shoes4.png" alt="Shoes4">
+                                    <div class="card-body p-0">
+                                            <div class="placeit"></div>
+                                            <div class="price-big d-inline-flex">
+                                                <div class="mx-auto">$145.99</div>
+                                            </div>
+                                        <p class="card-text d-inline-block">Even&Odd</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4 mb-3 px-2">
+                                <div class="card">
+                                    <img class="card-img-top" src="img/shoes5.png" alt="Shoes5">
+                                            <div class="card-body p-0">
+                                            <div class="placeit"></div>
+                                            <div class="price-big d-inline-flex">
+                                                <div class="mx-auto">$145.99</div>
+                                            </div>
+                                        <p class="card-text d-inline-block">Even&Odd</p>
+                                    </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="col-4 mb-3 px-2">
+                                    <div class="card">
+                                        <img class="card-img-top"   src="img/shoes6.png" alt="Shoes6">
+                                        <div class="d-inline-flex badge-sale orange-sale">
+                                            <div class="mx-auto text-center">OUT OF STOCK</div>
+                                        </div>
+                                        <div class="card-body p-0">
+                                                <div class="placeit"></div>
+                                                <div class="price-big d-inline-flex">
+                                                    <div class="mx-auto">$145.99</div>
+                                                </div>
+                                            <p class="card-text d-inline-block">Buffalo Decollete</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4 mb-3 px-2">
+                                    <div class="card">
+                                        <img class="card-img-top"  src="img/shoes1.png" alt="Shoes1">
+                                        <div class="card-body p-0">
+                                                <div class="placeit"></div>
+                                                <div class="price-big d-inline-flex">
+                                                    <div class="mx-auto">$145.99</div>
+                                                </div>
+                                            <p class="card-text d-inline-block">Even&Odd</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4 mb-3 px-2">
+                                    <div class="card">
+                                        <img class="card-img-top" src="img/shoes2.png" alt="Shoes2">
+                                                <div class="d-inline-flex badge-sale black-sale">
+                                                    <div class="mx-auto text-center">ON SALE!</div>
+                                                </div>
+                                                <div class="card-body p-0">
+                                                <div class="placeit"></div>
+                                                <div class="price-big d-inline-flex">
+                                                    <div class="mx-auto">$145.99</div>
+                                                </div>
+                                            <p class="card-text d-inline-block">Even&Odd</p>
+                                        </div>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="col-4 mb-3 px-2">
+                                        <div class="card">
+                                            <img class="card-img-top"   src="img/shoes3.png" alt="Shoes3">
+                                            <div class="card-body p-0">
+                                                    <div class="placeit"></div>
+                                                    <div class="price-big d-inline-flex">
+                                                        <div class="mx-auto">$145.99</div>
+                                                    </div>
+                                                <p class="card-text d-inline-block ">Buffalo Decollete</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                        </div> 
+                    </div>
+                    
+                </div>
+                <div class="row info-content py-4 mx-auto mt-3">
+                    <div class="col-3 info-item pt-4 pb-2 mr-3 px-3">
+                        <h6>free shipping</h6>
+                        <p>Vivamus metus turpis, bibendum vitae euismod vel,
+                            vulputate vel nibh. Class aptent taciti sociosqu
+                            ad litora torquent per conubia nostra, per inceptos
+                            himenaeos. Donec erat sem, 
+                        </p>
+                    </div>
+                    <div class="col-4 info-item pt-4 pb-2 mr-3 px-3">
+                        <h6>testimonials</h6>
+                        <p>vel, vulputate vel nibh. Class aptent taciti sociosqu
+                             ad litora torquent per conubia nostra, per inceptos 
+                             himenaeos. Donec erat sem, vehicula id dictum sit [...] <br>
+                            <cite>- John Doe -</cite>
+                            </p>
+                    </div>
+                    <div class="col info-item pt-4 pb-1 px-2">
+                        <h6>blog news</h6>
+                        <ul class="list-unstyled mb-0" id="media-target">
+                            <li class="media">
+                                <div class="price-small d-inline-flex  mb-2 mr-1">
+                                    <div class="mx-auto p-1 text-center font-weight-bold">APR 01 </div>
+                                </div>  
+                                <div class="media-body m-auto">
+                                <h5 class="mt-0 mb-0">Nice & clean. The best for your blog!</h5>
+                                    <p class="media-p">
+                                        Vivamus metus turpis, bibendum vitae euismod vel, vulputate vel
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="media my-2">
+                                <div class="price-small d-inline-flex mb-2 mr-1">
+                                    <div class="mx-auto p-1 text-center font-weight-bold">APR 01 </div>
+                                </div>  
+                                <div class="media-body m-auto">
+                                <h5 class="mt-0 mb-0">What an Ecommerce theme!</h5>
+                                    <p class="media-p">
+                                    Vulputate vel nibh. Class aptent taciti sociosqu ad litora
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+    </div>
+
+    <div class="widget-section">
+        <div class="row widget-content py-5 mx-auto">
+            <div class="col pr-4 pl-0">
+                    <h6>text widget</h6>
+                    <p>Donec sed odio dui. Nulla vitae elit libero,
+                        a pharetra augue. Nullam id dolor id nibh ultricies
+                        vehicula ut id elit. Integer posuere erat a ante
+                        venenatis dapibus posuere velit aliquet. Duis mollis,
+                        est non commodo luctus, nisi erat porttitor ligula,
+                        eget lacinia odio sem nec elit.
+                    </p>
+                </div>
+                <div class="col-4 px-4 twitt">
+                    <h6>twitter widget</h6>
+                    <div class="twitter-item">
+
+                    </div>
+                </div>
+                <div class="col pl-4 pr-0">
+                    <h6 class="fix">flickr widget</h6>
+                    <div class="row img-area justify-content-center py-2" id="flick-img">
+                    </div>
+                </div>
+        </div>
+        <hr>
+        <div class="row contact-content pt-1 pb-4 mx-auto">
+            <div class="col px-0">
+                <div class="input-group input-group-sm">
+                    <input type="email" class="email pl-2 pr-0" placeholder="Enter email for newsletter" aria-label="email" aria-describedby="button-addon2">
+                    <div class="input-group-append"> 
+                        <button class="btn py-1" type="button" id="button-addon2"><i class="fas fa-angle-right"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-auto ml-auto px-0 d-flex margin-ico">
+                <div class="soc-ico d-inline-flex mr-1"><i class="fab m-auto fa-facebook-f"></i></div>
+                <div class="soc-ico d-inline-flex mr-1"><i class="fab m-auto fa-twitter"></i></div>
+                <div class="soc-ico d-inline-flex mr-1"><i class="fab m-auto fa-google-plus-g"></i></div>
+                <div class="soc-ico d-inline-flex mr-1"><i class="fab m-auto fa-linkedin-in"></i></div>
+                <div class="soc-ico d-inline-flex "><i class="fab m-auto fa-flickr"></i></div>
+            </div>  
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="row footer-content pt-4 pb-2 mx-auto">
+            <div class="col px-0">
+                <p>
+                    Copyright &copy; Fooseshoes 2013. <br>
+                    Designed by EnzoLiVolti.
+                </p>
+            </div>
+            <div class="col px-0 text-right m-auto">
+                <p>
+                    Home/Support/Terms and Conditions/Faqs/Contact us
+                </p>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+    <!-- Flickr image modal  -->
+    <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">Image preview</h4>
+              <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <img src="" class="imagepreview w-100"  >
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-light w-100" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+           <!-- Login modal  -->
+           <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="loginModalLabel">Login Form</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form class="needs-validation" novalidate>  <!-- -->
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control login-valid" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
+                                
+                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Password</label>
+                                <input type="password" class="form-control login-valid" id="exampleInputPassword1" placeholder="Password" required>
+                            </div>
+                            <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label  ignore-valid" for="exampleCheck1">Stay in?</label>
+                            </div>
+                            <button type="submit" class="btn btn-light confirm d-block">Confirm Login</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Register modal  -->
+        <div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="registerModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="registerModalLabel">Register Form</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <form class="needs-validation" novalidate>
+                                <div class="form-group">
+                                    <label for="registerInputEmail1">Email address</label>
+                                    <input type="email" class="form-control" id="registerInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required>
+                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                </div>
+                                <div class="form-group">
+                                    <label for="registerInputPassword1">Password</label>
+                                    <input type="password" class="form-control" id="registerInputPassword1" placeholder="Password" required>
+                                </div>
+                                <div class="form-group">
+                                        <label for="registerInputPassword2">Repeat Password</label>
+                                        <input type="password" class="form-control" id="registerInputPassword2" placeholder="Password" required>
+                                    </div>
+                                <div class="form-group form-check">
+                                    <input type="checkbox" class="form-check-input" id="registerCheck1" required>
+                                    <label class="form-check-label" for="registerCheck1">Accept our Rules!</label>
+                                </div>
+                                <button type="submit" class="btn btn-light confirm">Confirm Register</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script src="js/refreshBlog.js"></script>
+    <script src="js/valid.js"></script>
+    <script src="js/twitter.js"></script>
+    <script src="js/flickr.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

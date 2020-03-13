@@ -1,0 +1,64 @@
+@import "../variables.scss";
+
+/*========================
+        CONTACT BLOCK
+   ======================*/
+
+   hr{
+    border-top:solid 1px #1c1c1c;
+}
+.email{
+    height: 1.8rem;
+    background-color: $bg_footer;
+    width: 35%;
+    font-family: "Aller_Rg", sans-serif;
+    font-size: 1.2vw;
+    color: #a7a7a7;
+    font-style: italic;
+    border-color: transparent;
+    &:focus {
+        outline: none;
+    }
+}
+
+ .contact-content .input-group {
+     .btn:hover {
+         background-color: white;
+        i.fas {
+            color: $color_logo;
+         }
+     }
+     
+ }
+.btn{
+    height: 1.8rem; 
+    border-radius: 0%;
+    background-color: #939393;
+    color: $bg_black;
+    padding:.5rem .5rem;
+    border-color: #868e96;
+}
+
+   ::placeholder{
+    font-size: 1.30vh; 
+    font-style: italic;
+}
+
+.soc-ico{
+    background-color: $bg_footer;
+    width: 1.8rem;
+    height: 1.8rem;
+
+    &:hover {
+    background-color: $color_logo;
+    i {
+        color: #fff;
+    } 
+    }
+
+    
+}
+.margin-ico{
+    margin-right:1.6vw;
+}
+

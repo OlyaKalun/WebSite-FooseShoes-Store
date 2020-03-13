@@ -1,0 +1,50 @@
+ /*========================
+        MENU BLOCK
+   ======================*/
+
+   @import "../variables.scss";
+
+   .menu-section{
+    background-color: $bg_white; 
+    font-family: "Aller_Rg", sans-serif;
+    .col {
+    align-items: center;
+    justify-content: center;
+    }
+}
+
+.menu-content{
+    width: 74%;
+    .col{
+        display: inline-flex;
+        border-right:1px solid #6B6A6A;
+        &:nth-child(1){
+            border-left:1px solid #6B6A6A;
+        }
+        &:nth-child(9){
+            border-left:1px solid #6B6A6A;
+        }
+    }
+ 
+   
+}
+
+.menu-content,
+.slider-content {
+    .menu-item{
+        font-size: 1.5vw;
+        color:$bg_black;
+    }
+    
+    a.menu-item {
+        font-weight: 500;
+    }
+    
+    .menu-item:hover {
+        color:$color-logo;
+        text-decoration: none;
+        cursor: pointer;
+    }
+}
+
+

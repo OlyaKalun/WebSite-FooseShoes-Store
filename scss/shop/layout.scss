@@ -1,0 +1,70 @@
+@import "../variables.scss";
+
+.shop-content{
+    font-family: "Aller_Rg", sans-serif;
+    h6 {
+        font-family: "Aller_Rg", sans-serif;
+    }
+   }  
+.shop-section{
+    background-color: $bg_footer;
+}
+
+.shop-content{
+    width:74%;
+}
+
+.shop-by>h6{
+    color:white;
+    font-weight: 350;
+    font-size: 1.8vw;
+    
+}
+.col.shop-by{
+    display:inline-flex;
+    align-self: center;
+}
+
+.shop-content {
+    
+    .dropdown-menu{
+      padding:0;
+        
+        &.show {
+        top: 0.8rem!important;
+        font-size: 1.5vw;
+        border-radius: initial;
+        
+        }    
+    
+        .dropdown-item {
+            background-color: #4c4c4c;
+            color: #868e96;
+            border: none;
+            width:16vw;
+        }
+
+    
+        .dropdown-item:hover {
+            background-color:$color-logo;
+            color: #fff;
+        }
+    }
+
+    .dropdown-text{
+        color: white;
+        font-size: 1.4vw;
+        background-color: $bg_black;
+        padding-left: 2rem;
+        padding-bottom: 1.5rem;
+        width:16vw;
+        height: 2.6vw;
+        border-color: $bg_black;
+        
+    }
+    .dropdown-toggle::after{
+        display:none;
+     
+    }
+    }
+    

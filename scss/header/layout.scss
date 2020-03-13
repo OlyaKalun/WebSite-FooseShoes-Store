@@ -1,0 +1,110 @@
+@import "../variables.scss";
+
+/*========================
+        HEADER BLOCK
+   ======================*/
+   .header-content{
+    width: 74%;
+    font-family: 'Aller_Rg', sans-serif;
+    .col{
+    border-right: $br2;
+
+    &-auto{
+        border-right: $br2;   
+    }
+    a:hover{
+    text-decoration: none;
+    }
+    }
+}
+
+.header-content>.col {
+    
+    align-items: center;
+}
+
+.bg-header{
+    background-color: $bg_black;
+}
+
+.logo{
+    color: $color_logo;
+}
+
+.search{
+    font-size:$size_vh;
+    a:hover{
+        text-decoration: none;
+        }
+}
+
+.login{
+    font-size:$size_vh;
+    span[data-toggle="modal"]:hover {
+        color: $color-logo;
+        cursor: pointer;
+    }
+}
+
+.header-content {
+.dropdown-toggle::after {
+    display: none;
+}
+
+.dropdown-menu{
+    min-width: initial;
+    
+    &.show {
+    top: 0.68rem!important;
+    font-size: 0.8vw;
+    text-transform: uppercase;
+    border-radius: initial;
+    
+    }    
+
+    .dropdown-item {
+        background-color: #4c4c4c;
+        color: #868e96;
+        border: none;
+    }
+
+    .dropdown-item:hover {
+        background-color:$color-logo;
+        color: #fff;
+    }
+
+    .dropdown-header {
+        color: $color-logo;
+        background-color: #4c4c4c;
+    }
+
+    .dropdown-divider {
+        margin: 0;
+        border: 1px solid $color-logo;
+    }
+}
+}
+
+/*--modal styles--*/
+
+.modal-dialog .form-check-input {
+    margin-left: initial;
+}
+
+.modal-dialog {
+    .btn {
+        height: initial;
+        border-radius: .25rem;
+        display: block;
+        width: 100%
+    }
+    .btn-light {
+        font-weight: 700;
+        color: #fff;
+        &:hover {
+            background-color: $color-logo;
+        }
+    }
+}
+
+

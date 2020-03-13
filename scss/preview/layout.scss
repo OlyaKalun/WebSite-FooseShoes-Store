@@ -1,0 +1,50 @@
+/*========================
+        PREVIEW BLOCK
+   ======================*/
+
+   @import "../extend/param_img.scss";
+   @import "../variables.scss";
+
+
+   .preview-section, .widget-section{
+    background-color: $bg_black;
+    
+}
+
+.preview-content{
+    width: 74%;
+    
+
+   .col h5{
+       width: auto;
+       height: 40%;
+       padding: 0 1rem;
+       font-size: 2.5vw;
+       white-space: nowrap;
+       font-family: "Aller_Rg", sans-serif;
+   }
+}
+   
+
+.on-sale{
+   background-image:  url(../img/on_sale.png);
+   @extend %param_img;
+}
+
+.special-off{
+   background-image:  url(../img/special_offers.png);
+   @extend %param_img;
+}
+
+.must-have{
+   background-image:  url(../img/must_have.png);
+   @extend %param_img;
+}
+
+.preview-text{
+   background-color: rgba(37, 36, 36, 0.85);
+   text-transform: uppercase;
+   align-self: center;
+   align-items: center;
+   font-weight: normal;
+}

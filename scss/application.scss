@@ -1,0 +1,152 @@
+@import "header/layout.scss";
+@import "menu/layout.scss";
+@import "slider/layout.scss";
+@import "preview/layout.scss";
+@import "main/layout.scss";
+@import "widget/layout.scss";
+@import "contact/layout.scss";
+@import "footer/layout.scss";
+
+@import "shop/layout.scss";
+
+@font-face {
+    font-family: 'Aller';
+    src: url('../fonts/Aller.ttf') format('truetype'),
+         url('../fonts/Aller.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Aller_Rg';
+    src: url('../fonts/Aller_Rg.eot');
+    src: url('../fonts/Aller_Rg.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Aller_Rg.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  /*========================
+       MODAL WINDOWS
+   ======================*/
+
+   .modal-dialog {
+    font-family: "Aller_Rg", sans-serif;
+    .ignore-valid {
+        color: initial!important;
+    }
+   }
+
+
+
+ /*========================
+       MEDIA QUERIES
+   ======================*/
+   @media(min-width:768px) and (max-width:959px){
+    .header-content, 
+    .menu-content,
+    .slider-content,
+    .slider-control-content,
+    .preview-content,
+    .arrivals-content,
+    .info-content,
+    .widget-content,
+    .contact-content,
+    .footer-content{
+        max-width: 65%;
+    }
+
+    .header-content{
+        .col:first-child{
+            border-right: none;
+        }
+        .search{
+            
+            span{
+                display: none;
+            }
+        }
+    }
+
+    .preview-content{
+        .col.on-sale{
+            padding: 0;
+        }
+    }
+
+    .menu-content{
+     .col.invisible{
+             display: none; 
+         }
+     
+     .col:nth-child(9){
+         border-left: none;
+     }
+     }
+     .info-content{
+         .col.info-item:first-child{
+         display: none;
+         }
+     
+     }
+
+     .widget-content{
+         .col:nth-child(2){
+            visibility: hidden;
+         }
+     }
+
+     .info-content .col-3:first-of-type{
+         display: none;
+     }
+
+     .widget-content .twitt {
+         visibility: hidden;
+     }
+    
+     .arrivals-content{
+         .black-sale{
+             visibility: hidden;
+         }
+         .orange-sale{
+            visibility: hidden;
+        }
+     }
+
+}
+
+@media(max-width:767px){
+    .slider-control,
+    .preview-content,
+    .main-content,
+    .widget-section,
+    .footer,
+    .shop-section {
+        display: none;
+    }
+    .menu-content {
+        .col:nth-of-type(-n+6) {
+            display: none;
+        }
+        .col.invisible {
+            visibility: initial!important;
+        }
+        .col:nth-of-type(7) {
+            border-left: 1px solid;
+        }
+        .col:nth-of-type(8) {
+            border-right: none;
+        }
+    }
+    .header-content {
+        .search {
+            display: none;
+        }
+    }
+}
+@media(max-width:550px){
+.price-big{
+    width: 10vw;
+    height: 10vw;
+}
+}

@@ -1,0 +1,29 @@
+{
+  "name": "olyakalun.bitbucket.io",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.1",
+    "node-sass": "^4.11.0",
+    "path-is-absolute": "^2.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-install": "^1.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://OlyaKalun@bitbucket.org/OlyaKalun/olyakalun.bitbucket.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/OlyaKalun/olyakalun.bitbucket.io#readme",
+  "description": ""
+}

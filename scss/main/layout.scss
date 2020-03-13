@@ -1,0 +1,170 @@
+/*========================
+        MAIN BLOCK
+   ======================*/
+   @import "../extend/price.scss";
+   @import "../extend/sale.scss";
+   @import "../variables.scss";
+
+   .main-content{
+    background-image:  url(../img/bg_main.png); /* important! replace with background-color*/
+    font-family: "Aller_Rg", sans-serif;
+    h5 {
+        font-family: "Aller_Rg", sans-serif;
+    }
+   }
+
+   .arrivals-content{
+    width: 74%;
+
+    .placeit {
+        width: 5.5vw;
+        height: 2.5vw;
+        background-color: transparent;
+        margin: 0 3% 0 5%;
+        display: inline-block;
+    }
+
+    .card-text {
+        padding: 0;
+    }
+
+    h5 {
+        font-size: 2vw;
+    }
+
+    }
+
+
+   .show-all{
+    color: #bcb5a7;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid #bcb5a7;
+    font-size: 1.1vw;
+    outline: none;
+
+        &:hover {
+            background-color: #bcb5a7;
+            color: $bg_main;
+        }
+        &:focus {
+            outline: none;
+        }
+    
+   }
+
+
+   .black-sale {
+       background-color: #000;
+       @extend %sale;
+    width: 5vw;
+    height: 5vw;
+    font-size: 1vw;
+   }
+
+.info-content{
+    width: 74%; 
+    border-top: 1px solid #6B6A6A;
+    h6{
+        font-size: 1vw;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-family: "Aller_Rg", sans-serif;
+    }
+    h5{
+        font-size: 1vw;
+        font-weight: bold;
+        font-family: "Aller_Rg", sans-serif;
+    }
+}
+
+.info-item{
+    background-color: $info_item;
+    font-size: 1vw;
+}
+
+.orange-sale{
+    background-color:#f27e4b;
+    @extend %sale;
+    width: 5vw;
+    height: 5vw;
+    font-size: 1vw;
+}
+
+.price-small{
+    @extend %price;
+    width: 4vw;
+    height: 4vw;
+    font-size: 0.8vw;
+}
+
+.centering{
+    margin: 0 auto;
+    align-items: center;
+}
+.nav-ico-menu i {
+font-size: 0.8rem; }
+
+.nav-ico-menu i:hover {
+color: #57c5a0; }
+
+.nav-ico-menu div {
+    background-color: #fff;
+    width: 2.2rem;
+    height: 2.2rem; }
+
+.card-body{
+    height: 4vw;
+}
+
+.card-body {
+    position: relative;
+    border-top: 1px solid #6B6A6A;
+    .price-big {
+        position: absolute;
+        bottom: 0;
+        left: 5%;
+    }
+    p{
+        font-weight: 500;
+        font-size: 1.5vw;
+    }
+}
+
+.info-content {
+    .media-p {
+        font-size: 0.8vw;
+        margin-bottom: 0.5rem;
+    }
+}
+
+ol.breadcrumb {
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    font-family: "Aller", "sans-serif";
+    font-size: 1vw;
+    a {
+        color: #bcb5a7;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    content: ">";
+    font-weight: bold;
+    color: #bcb5a7;
+}
+
+nav[aria-label="breadcrumb"] {
+    align-items: center;
+    display: inline-flex;
+}
+
+span.m-auto.pr-3 {
+    font-size: 1.1vw;
+    color: #bcb5a7;
+}
